@@ -1,0 +1,2 @@
+# RecChar
+Browser game "RecChar"
