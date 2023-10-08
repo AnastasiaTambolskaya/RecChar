@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.container {
+    font-family: 'Notable', sans-serif;
+    margin-left: 300px;
+    font-size: 25px;
+}
+#gender {
+    font-family: 'Notable', sans-serif;
+    font-size: 35px;
+    margin-left: 680px;
+    margin-top: -25px;
+}
+
+#mujik {
+    margin-left: 320px;
+    margin-top: -10px;
+}
+#baba {
+    margin-left: 60px;
+    margin-top: -50px;
+}
+.mujik-container {
+    position: relative;
+    display: inline-block;
+    min-height: 500px; /* Минимальная высота контейнера */
+
+}
+
+.mujik-container img {
+    transition: opacity 0.3s; /* Анимация перехода для плавного появления и исчезновения */
+}
+
+.mujik-container:hover img {
+    opacity: 0.7; /* Установите желаемую прозрачность для подсветки */
+}
+.baba-container {
+    position: relative;
+    display: inline-block;
+}
+
+.baba-container img {
+    transition: opacity 0.3s; /* Анимация перехода для плавного появления и исчезновения */
+}
+
+.baba-container:hover img {
+    opacity: 0.7; /* Установите желаемую прозрачность для подсветки */
+}
+#okButton {
+    margin-left: 660px;
+    margin-top: -12px;
+    background-color: black;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+#okButton:link,
+#okButton:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+#okButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #494949;
+    cursor: pointer; /* Изменение курсора при наведении */
+
+}
+
+#okButton:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#okButton-white {
+    background-color: #fff;
+    color: #777;
+}
+
+#okButton::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+#okButton-white::after {
+    background-color: #fff;
+}
+
+#okButton:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+#okButton-animated {
+    animation: moveInBottom 10s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+#maleButton {
+    background-color: black;
+    color: #fff;
+    font-family: 'Notable', sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    
+}
+#maleButton:active {
+    background-color: rgb(255, 134, 134);
+    cursor:pointer; /* Изменение курсора при нажатии */
+}
+#maleButton:hover {
+    background-color: #494949;
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+#femaleButton {
+    background-color: black;
+    color: #fff;
+    font-family: 'Notable', sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+}
+#femaleButton:active {
+    background-color:#494949;
+    cursor:pointer; /* Изменение курсора при нажатии */
+}
+#femaleButton:hover {
+    background-color: #494949;
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+.knopochki {
+    margin-left: 660px;
+    margin-top: -20px;
+}

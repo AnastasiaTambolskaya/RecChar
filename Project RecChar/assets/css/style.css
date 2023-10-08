@@ -1,0 +1,88 @@
+body {
+    margin-left: 250px;
+    background-color:rgb(255, 255, 255);
+}
+.project {
+    margin-top: 200px;
+    margin-left: 130px;
+}
+.secbuter {
+    margin-left: -55px;
+    margin-top: -15px;
+}
+.container {
+    font-family: 'Notable', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    max-width: 1086px;
+    max-height: 1024px;
+    margin-left: 0px;
+    margin-bottom: -150px;
+}
+
+.butter {
+    margin-top: -480px;
+    margin-left: 250px;
+}
+.rotate-right {
+    transform: rotate(325deg);
+}
+
+#circle {
+    margin-top: -315px;
+    margin-left: 100px;
+    width: 463px;
+    height: 463px;
+    background: white;
+    border-radius: 1000px;
+}
+
+.btn {
+    font-family: 'Anaheim', sans-serif;
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 50px;
+	height: 86px;
+    width: 309px;
+	line-height: 46px;
+	font-size: 35px;
+	font-weight: 600;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+    margin-top: -50px;
+    margin-left: 350px;
+}
+.btn:focus-visible {
+	border: 1px solid #000000;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: hsl(0, 0%, 100%);
+    color: #000000;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: rgb(0, 0, 0);
+	cursor: not-allowed;
+}
+.silka {
+	text-decoration: none;
+	color: white;
+}
