@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 const maleButton = document.getElementById('maleButton');
 const femaleButton = document.getElementById('femaleButton');
 const mujikImage = document.getElementById('mujik');
@@ -28,16 +29,17 @@ femaleButton.addEventListener('click', function() {
     
 });
 
-btn.addEventListener('click', function() {
+btn.addEventListener ('click', function() {
     if (selectedGender === 'male' || selectedGender === 'female') {
         // Переход на особую страницу в зависимости от выбранного пола
         if (selectedGender === 'male') {
-            window.location.href = 'file:///F:/Project%20RecChar/third.html';
+            window.location.href = 'third.html';
         } 
         else if (selectedGender === 'female') {
-            window.location.href = 'file:///F:/Project%20RecChar/third_1.html';
-        }
-    } else {
+            window.location.href = 'third_1.html';
+        } else {
         alert('Пожалуйста, выберите пол перед нажатием кнопки "ОК".');
     }
+}
+});
 });

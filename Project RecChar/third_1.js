@@ -19,9 +19,9 @@ elfButton.addEventListener('click', () => {
   // Скрываем изображения Fairy и Vampire
     fairy_female.style.display = 'none';
     vampire_female.style.display = 'none';
-    elf_female.style.transform = 'translate(98%, 10%)';
-    elfButton.style.transform = 'translate(335%, 190%)';
-    okButton.style.transform = 'translate(0%, 110%)';
+    elf_female.style.transform = 'translate(95%, 10%)';
+    elfButton.style.transform = 'translate(375%, 147%)';
+    okButton.style.transform = 'translate(0%, 87%)';
     selectedRace = 'elf_female';
 });
 
@@ -37,9 +37,9 @@ fairyButton.addEventListener('click', () => {
   // Скрываем изображения Elf и Vampire
     elf_female.style.display = 'none';
     vampire_female.style.display = 'none';
-    fairy_female.style.transform = 'translate(121%, 0%)';
+    fairy_female.style.transform = 'translate(195%, 9%)';
     fairyButton.style.transform = 'translate(454%, 14%)';
-    okButton.style.transform = 'translate(0%, 8%)';
+    okButton.style.transform = 'translate(0%, 87%)';
     selectedRace = 'fairy_female';
 });
 
