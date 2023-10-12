@@ -30,8 +30,6 @@ femaleButton.addEventListener('click', function() {
 });
 
 btn.addEventListener ('click', function() {
-    if (selectedGender === 'male' || selectedGender === 'female') {
-        // Переход на особую страницу в зависимости от выбранного пола
         if (selectedGender === 'male') {
             window.location.href = 'third.html';
         } 
@@ -40,6 +38,5 @@ btn.addEventListener ('click', function() {
         } else {
         alert('Пожалуйста, выберите пол перед нажатием кнопки "ОК".');
     }
-}
 });
 });

@@ -7,6 +7,8 @@ const elf_female = document.getElementById('elf_female');
 const fairy_female = document.getElementById('fairy_female');
 const vampire_female = document.getElementById('vampire_female');
 
+let selectedRace = '';
+
 // Добавляем обработчик события на кнопку Elf
 elfButton.addEventListener('click', () => {
   // Скрываем кнопки Fairy и Vampire
@@ -20,7 +22,7 @@ elfButton.addEventListener('click', () => {
     fairy_female.style.display = 'none';
     vampire_female.style.display = 'none';
     elf_female.style.transform = 'translate(95%, 10%)';
-    elfButton.style.transform = 'translate(375%, 147%)';
+    elfButton.style.transform = 'translate(365%, 147%)';
     okButton.style.transform = 'translate(0%, 87%)';
     selectedRace = 'elf_female';
 });
@@ -38,8 +40,8 @@ fairyButton.addEventListener('click', () => {
     elf_female.style.display = 'none';
     vampire_female.style.display = 'none';
     fairy_female.style.transform = 'translate(195%, 9%)';
-    fairyButton.style.transform = 'translate(454%, 14%)';
-    okButton.style.transform = 'translate(0%, 87%)';
+    fairyButton.style.transform = 'translate(516%, 179%)';
+    okButton.style.transform = 'translate(0%, 107%)';
     selectedRace = 'fairy_female';
 });
 
@@ -55,14 +57,14 @@ vampireButton.addEventListener('click', () => {
   // Скрываем изображения Elf и Fairy
     elf_female.style.display = 'none';
     fairy_female.style.display = 'none';
-    vampire_female.style.transform = 'translate(227%, 10%)';
-    vampireButton.style.transform = 'translate(365%, 190%)';
+    vampire_female.style.transform = 'translate(144%, 10%)';
+    vampireButton.style.transform = 'translate(505%, 190%)';
     okButton.style.transform = 'translate(0%, 109%)';
     selectedRace = 'vampire_female';
 });
 okButton.addEventListener('click', function() {
     if (selectedRace === 'elf_female') {
-        window.location.href = 'file:///F:/Project%20RecChar/forth.html';
+        window.location.href = '/Users/nasta/RecChar/Project RecChar/forth.html';
     } else if (selectedRace === 'fairy_female') {
         window.location.href = 'special_page_for_fairy.html';
     } else if (selectedRace === 'vampire_female') {
