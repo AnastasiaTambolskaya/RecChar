@@ -5,22 +5,22 @@ body {
 
 .container {
     font-family: 'Notable', sans-serif;
-    margin-left: 300px;
+    text-align: center;
     font-size: 25px;
 }
 #gender {
     font-family: 'Notable', sans-serif;
     font-size: 35px;
-    margin-left: 680px;
+    text-align: center;
     margin-top: -25px;
 }
 
 #mujik {
-    margin-left: 320px;
-    margin-top: -10px;
+    margin-left: 300px;
+    margin-top: 10px;
 }
 #baba {
-    margin-left: 60px;
+    margin-left: 30px;
     margin-top: -50px;
 }
 .mujik-container {
@@ -50,8 +50,8 @@ body {
     opacity: 0.7; /* Установите желаемую прозрачность для подсветки */
 }
 #okButton {
-    margin-left: 660px;
-    margin-top: -12px;
+    margin-left: 740px;
+    margin-top: 2px;
     background-color: black;
     color: #fff;
     width: 150px;
@@ -135,6 +135,7 @@ body {
     width: 100px;
     height: 30px;
     border-radius: 100px;
+    margin-left: 70px;
     
 }
 #maleButton:active {
